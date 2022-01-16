@@ -28,8 +28,16 @@ body{
 .heading-tag{
  font-size: 40px;
 }
+.fisrt-section{
+    margin-bottom: 200px;
+}
+
 /* 2nd section desing */
 
+#title{
+    text-align: center;
+    font-size: 40px;
+}
 .image-design{
     border-radius: 8px ;
     width: 270px;
@@ -40,80 +48,12 @@ body{
 }
 
 
-.tripod-image{
+.image{
     background-color: rgb(238, 236, 236);
-    padding: 10px;
-    width: 300px;
-    border-radius: 5px;
-    padding-left:30px ;
-}
-
-.airpod-image{
-    background-color: rgb(238, 236, 236);
-    padding: 10px;
-    width: 300px;
-    border-radius: 5px;
-    padding-left:30px ;
-
-}
-.mic-image{
-    background-color: rgb(238, 236, 236);
-    padding: 10px;
-    width: 300px;
-    border-radius: 5px;
-    padding-left:30px ;
-}
-
-
-.drone-image{
-    background-color: rgb(238, 236, 236);
-    width: 300px;
-    border-radius: 5px;
-    padding-left:30px ;
-}
+     padding: 30px; 
     
-
-.light-image{
-    background-color: rgb(238, 236, 236);
-    padding: 10px;
-    width: 300px;
     border-radius: 5px;
-    padding-left:30px ;
-}
     
-
-.setup-image{
-    background-color: rgb(238, 236, 236);
-    padding: 10px;
-    width: 300px;
-    border-radius: 5px; 
-    padding-left:30px ;
-} 
-
-.camera-image{
-    background-color: rgb(238, 236, 236);
-    
-    width: 300px;
-    border-radius: 5px;  
-     padding-left:30px ;
-}
-
-
-.singlelight-image{
-    background-color: rgb(238, 236, 236);
-    padding: 10px;
-    width: 300px;
-    border-radius: 5px; 
-    padding-left:30px ;
-} 
-
-
-.action-image{
-    background-color: rgb(238, 236, 236);
-    padding: 10px;
-    width: 300px;
-    border-radius: 5px; 
-    padding-left:30px ;
 }
 
 
@@ -121,8 +61,60 @@ body{
 .second-article{
     display:grid;
     grid-template-columns: repeat(3 , 1fr);
-    grid-column-gap: 20px;
+     grid-column-gap: 20px; 
     grid-row-gap:20px ;
     margin: auto;
     width: 70%;
+}
+.see-more{
+    background-color: white;
+    border-radius: 20px;
+    border-color: wheat;
+    padding: 10px;
+    padding: 10px 20px 10px 30px;
+    border: none;
+    color: rgb(201, 45, 136);
+    position: absolute;
+    right: 0px;
+    margin-right: 215px;
+}
+#heading{
+    text-align: center;
+    font-size: 50px;
+}
+ table ,th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+.table-info{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+.table-center{
+    align-items: center;
+    margin-left: 150px;
+}
+.third-section{
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    
+}
+.different-img{
+    width: 400px;
+    height: auto;
+}
+.copyright{
+    font-size: small;
+}
+.products{
+    text-align: center;
+    color: white;
+}
+
+.footer{
+    background-color: rgb(19, 19, 68);
+    margin-top: 50px;
 }
