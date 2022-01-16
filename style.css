@@ -1,3 +1,10 @@
 body{
     font-family: 'Satisfy', cursive;
 }
+.first-article{
+    display:grid;
+    grid-template-columns: repeat(2 , 1fr);
+}
+.heading-tag{
+ font-size: 20em;
+}
