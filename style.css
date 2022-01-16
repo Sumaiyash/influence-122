@@ -28,3 +28,70 @@ body{
 .heading-tag{
  font-size: 40px;
 }
+/* 2nd section desing */
+.tripod-image{
+    background-color: rgb(121, 25, 25);
+    padding: 10px;
+    width: 300px;
+    border-radius: 30px;
+}
+.airpod-image{
+    background-color: rgb(121, 25, 25);
+    padding: 10px;
+    width: 300px;
+    border-radius: 30px;
+}
+.mic-image{
+    background-color: rgb(121, 25, 25);
+    padding: 10px;
+    width: 300px;
+    border-radius: 30px;
+
+}
+.drone-image{
+    background-color: rgb(121, 25, 25);
+    padding: 10px;
+    width: 300px;
+    border-radius: 30px;
+    
+}
+.light-image{
+    background-color: rgb(121, 25, 25);
+    padding: 10px;
+    width: 300px;
+    border-radius: 30px;
+    
+}
+.setup-image{
+    background-color: rgb(121, 25, 25);
+    padding: 10px;
+    width: 300px;
+    border-radius: 30px;  
+}
+.camera-image{
+    background-color: rgb(121, 25, 25);
+    padding: 10px;
+    width: 300px;
+    border-radius: 30px;  
+}
+
+
+.singlelight-image{
+    background-color: rgb(121, 25, 25);
+    padding: 10px;
+    width: 300px;
+    border-radius: 30px;  
+}
+
+.action-image{
+    background-color: rgb(121, 25, 25);
+    padding: 10px;
+    width: 300px;
+    border-radius: 30px;  
+}
+
+
+.second-article{
+    display:grid;
+    grid-template-columns: repeat(3 , 1fr);
+}
